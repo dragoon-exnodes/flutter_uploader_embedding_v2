@@ -24,6 +24,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 31
 
+    namespace "com.bluechilli.flutteruploader"
+
     defaultConfig {
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
